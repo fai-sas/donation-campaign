@@ -1,0 +1,110 @@
+[
+  {
+    "picture": "https://i.ibb.co/McSkzvT/Health.png",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#0052ff26",
+    "card_bg": "#0052FF",
+    "text_color": "#0052FF",
+    "description": "Help provide access to clean water sources and sanitation for children's health. Your donation supports initiatives for a healthier future."
+  },
+  {
+    "picture": "https://i.ibb.co/FsBgCyY/Education.png",
+    "title": "Quality Education for All",
+    "category": "Education",
+    "category_bg": "#ff444a26",
+    "card_bg": "#FF444A",
+    "text_color": "#FF444A",
+    "description": "Empower future generations with quality education. Contribute to scholarships, schools, and programs for a brighter and educated world."
+  },
+  {
+    "picture": "https://i.ibb.co/DfW3XVH/Clothing.png",
+    "title": "Sustainable Fashion Choices",
+    "category": "Clothing",
+    "category_bg": "#79c23f26",
+    "card_bg": "#79C23F",
+    "text_color": "#79C23F",
+    "description": "Support eco-friendly fashion brands and reduce environmental impact with sustainable clothing choices."
+  },
+  {
+    "picture": "https://i.ibb.co/9cXy8xj/Food.png",
+    "title": "Nutritious Food for All",
+    "category": "Food",
+    "category_bg": "#f8714726",
+    "card_bg": "#F87147",
+    "text_color": "#F87147",
+    "description": "Make healthy food accessible to everyone. Your donation helps provide fresh produce and food security to those in need."
+  },
+  {
+    "picture": "https://i.ibb.co/McSkzvT/Health.png",
+    "title": "Immunizations for Children",
+    "category": "Health",
+    "category_bg": "#0052ff26",
+    "card_bg": "#0052FF",
+    "text_color": "#0052FF",
+    "description": "Protect children's health with life-saving immunizations. Your support ensures a healthier future for the younger generation."
+  },
+  {
+    "picture": "https://i.ibb.co/FsBgCyY/Education.png",
+    "title": "STEM Education Advancement",
+    "category": "Education",
+    "category_bg": "#ff444a26",
+    "card_bg": "#FF444A",
+    "text_color": "#FF444A",
+    "description": "Empower students with STEM (Science, Technology, Engineering, and Mathematics) education for innovation and problem-solving."
+  },
+  {
+    "picture": "https://i.ibb.co/DfW3XVH/Clothing.png",
+    "title": "Fashion for Positive Change",
+    "category": "Clothing",
+    "category_bg": "#79c23f26",
+    "card_bg": "#79C23F",
+    "text_color": "#79C23F",
+    "description": "Make stylish choices that contribute to positive change. Support fashion brands that give back to communities and causes."
+  },
+  {
+    "picture": "https://i.ibb.co/9cXy8xj/Food.png",
+    "title": "School Meals for Growth",
+    "category": "Food",
+    "category_bg": "#f8714726",
+    "card_bg": "#F87147",
+    "text_color": "#F87147",
+    "description": "Provide nutritious meals to schoolchildren for their growth and learning. Support school meal programs to fight child hunger."
+  },
+  {
+    "picture": "https://i.ibb.co/McSkzvT/Health.png",
+    "title": "Maternal Health Support",
+    "category": "Health",
+    "category_bg": "#0052ff26",
+    "card_bg": "#0052FF",
+    "text_color": "#0052FF",
+    "description": "Ensure the well-being of expecting mothers during childbirth. Support maternal health programs and access to healthcare for mothers."
+  },
+  {
+    "picture": "https://i.ibb.co/FsBgCyY/Education.png",
+    "title": "Online Learning Opportunities",
+    "category": "Education",
+    "category_bg": "#ff444a26",
+    "card_bg": "#FF444A",
+    "text_color": "#FF444A",
+    "description": "Enable remote education with online learning resources. Support e-learning initiatives for students of all ages."
+  },
+  {
+    "picture": "https://i.ibb.co/DfW3XVH/Clothing.png",
+    "title": "Ethical Fashion Choices",
+    "category": "Clothing",
+    "category_bg": "#79c23f26",
+    "card_bg": "#79C23F",
+    "text_color": "#79C23F",
+    "description": "Choose ethically-made clothing to support fair labor practices. Make fashion choices that prioritize worker rights and sustainability."
+  },
+  {
+    "picture": "https://i.ibb.co/9cXy8xj/Food.png",
+    "title": "Community Food Support",
+    "category": "Food",
+    "category_bg": "#f8714726",
+    "card_bg": "#F87147",
+    "text_color": "#F87147",
+    "description": "Contribute to community food drives and help combat hunger. Support local initiatives that provide food assistance to those in need."
+  }
+]
