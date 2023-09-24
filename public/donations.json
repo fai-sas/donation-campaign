@@ -49,7 +49,7 @@
     "title": "School Meals for Growth",
     "category": "Food",
     "category_bg": "#f8714726",
-    "card_bg": "#f871473",
+    "card_bg": "#f8714733",
     "text_color": "#F87147",
     "description": "Provide nutritious meals to schoolchildren for their growth and learning. Support school meal programs to fight child hunger.",
     "price": 90
@@ -126,7 +126,7 @@
     "title": "Community Food Support",
     "category": "Food",
     "category_bg": "#f8714726",
-    "card_bg": "#f871473",
+    "card_bg": "#f8714733",
     "text_color": "#F87147",
     "description": "Contribute to community food drives and help combat hunger. Support local initiatives that provide food assistance to those in need.",
     "price": 110
