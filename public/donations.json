@@ -7,7 +7,8 @@
     "category_bg": "#0052ff26",
     "card_bg": "#0052ff33",
     "text_color": "#0052FF",
-    "description": "Help provide access to clean water sources and sanitation for children's health. Your donation supports initiatives for a healthier future."
+    "description": "Help provide access to clean water sources and sanitation for children's health. Your donation supports initiatives for a healthier future.",
+    "price": 290
   },
   {
     "id": "2",
@@ -17,7 +18,8 @@
     "category_bg": "#ff444a26",
     "card_bg": "#ff444a33",
     "text_color": "#FF444A",
-    "description": "Empower future generations with quality education. Contribute to scholarships, schools, and programs for a brighter and educated world."
+    "description": "Empower future generations with quality education. Contribute to scholarships, schools, and programs for a brighter and educated world.",
+    "price": 320
   },
   {
     "id": "3",
@@ -27,7 +29,8 @@
     "category_bg": "#79c23f26",
     "card_bg": "#79c23f33",
     "text_color": "#79C23F",
-    "description": "Support eco-friendly fashion brands and reduce environmental impact with sustainable clothing choices."
+    "description": "Support eco-friendly fashion brands and reduce environmental impact with sustainable clothing choices.",
+    "price": 75
   },
   {
     "id": "4",
@@ -37,7 +40,8 @@
     "category_bg": "#f8714726",
     "card_bg": "#f8714733",
     "text_color": "#F87147",
-    "description": "Make healthy food accessible to everyone. Your donation helps provide fresh produce and food security to those in need."
+    "description": "Make healthy food accessible to everyone. Your donation helps provide fresh produce and food security to those in need.",
+    "price": 150
   },
   {
     "id": "5",
@@ -45,9 +49,10 @@
     "title": "School Meals for Growth",
     "category": "Food",
     "category_bg": "#f8714726",
-    "card_bg": "#f8714733",
+    "card_bg": "#f871473",
     "text_color": "#F87147",
-    "description": "Provide nutritious meals to schoolchildren for their growth and learning. Support school meal programs to fight child hunger."
+    "description": "Provide nutritious meals to schoolchildren for their growth and learning. Support school meal programs to fight child hunger.",
+    "price": 90
   },
   {
     "id": "6",
@@ -57,7 +62,8 @@
     "category_bg": "#79c23f26",
     "card_bg": "#79c23f33",
     "text_color": "#79C23F",
-    "description": "Make stylish choices that contribute to positive change. Support fashion brands that give back to communities and causes."
+    "description": "Make stylish choices that contribute to positive change. Support fashion brands that give back to communities and causes.",
+    "price": 120
   },
   {
     "id": "7",
@@ -67,7 +73,8 @@
     "category_bg": "#ff444a26",
     "card_bg": "#ff444a33",
     "text_color": "#FF444A",
-    "description": "Empower students with STEM (Science, Technology, Engineering, and Mathematics) education for innovation and problem-solving."
+    "description": "Empower students with STEM (Science, Technology, Engineering, and Mathematics) education for innovation and problem-solving.",
+    "price": 280
   },
   {
     "id": "8",
@@ -77,9 +84,9 @@
     "category_bg": "#0052ff26",
     "card_bg": "#0052ff33",
     "text_color": "#0052FF",
-    "description": "Protect children's health with life-saving immunizations. Your support ensures a healthier future for the younger generation."
+    "description": "Protect children's health with life-saving immunizations. Your support ensures a healthier future for the younger generation.",
+    "price": 200
   },
-
   {
     "id": "9",
     "picture": "https://i.ibb.co/McSkzvT/Health.png",
@@ -88,7 +95,8 @@
     "category_bg": "#0052ff26",
     "card_bg": "#0052ff33",
     "text_color": "#0052FF",
-    "description": "Ensure the well-being of expecting mothers during childbirth. Support maternal health programs and access to healthcare for mothers."
+    "description": "Ensure the well-being of expecting mothers during childbirth. Support maternal health programs and access to healthcare for mothers.",
+    "price": 180
   },
   {
     "id": "10",
@@ -98,7 +106,8 @@
     "category_bg": "#ff444a26",
     "card_bg": "#ff444a33",
     "text_color": "#FF444A",
-    "description": "Enable remote education with online learning resources. Support e-learning initiatives for students of all ages."
+    "description": "Enable remote education with online learning resources. Support e-learning initiatives for students of all ages.",
+    "price": 120
   },
   {
     "id": "11",
@@ -108,7 +117,8 @@
     "category_bg": "#79c23f26",
     "card_bg": "#79c23f33",
     "text_color": "#79C23F",
-    "description": "Choose ethically-made clothing to support fair labor practices. Make fashion choices that prioritize worker rights and sustainability."
+    "description": "Choose ethically-made clothing to support fair labor practices. Make fashion choices that prioritize worker rights and sustainability.",
+    "price": 80
   },
   {
     "id": "12",
@@ -116,8 +126,9 @@
     "title": "Community Food Support",
     "category": "Food",
     "category_bg": "#f8714726",
-    "card_bg": "#f8714733",
+    "card_bg": "#f871473",
     "text_color": "#F87147",
-    "description": "Contribute to community food drives and help combat hunger. Support local initiatives that provide food assistance to those in need."
+    "description": "Contribute to community food drives and help combat hunger. Support local initiatives that provide food assistance to those in need.",
+    "price": 110
   }
 ]
