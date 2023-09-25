@@ -1,7 +1,17 @@
+import { Link } from 'react-router-dom'
+
 /* eslint-disable react/prop-types */
 const Donations = ({ data }) => {
-  const { picture, category, title, price, category_bg, text_color, card_bg } =
-    data
+  const {
+    id,
+    picture,
+    category,
+    title,
+    price,
+    category_bg,
+    text_color,
+    card_bg,
+  } = data
 
   return (
     <div
@@ -21,12 +31,14 @@ const Donations = ({ data }) => {
         </h1>
         <p className=' text-2xl font-semibold text-[#0B0B0B]'>{title}</p>
         <p className='font-semibold'>${price}</p>
-        <button
-          className='text-lg text-white capitalize btn'
-          style={{ backgroundColor: text_color }}
-        >
-          View Details
-        </button>
+        <Link to={`/donation/${id}`}>
+          <button
+            className='text-lg text-white capitalize btn'
+            style={{ backgroundColor: text_color }}
+          >
+            View Details
+          </button>
+        </Link>
       </div>
     </div>
   )

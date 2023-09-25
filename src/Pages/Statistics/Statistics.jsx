@@ -9,9 +9,12 @@ const Statistics = () => {
   const totalDonations = donations.length
   const totalGivenDonations = storedDonationIds.length
 
+  const userDonationPercentage = (totalGivenDonations / totalDonations) * 100
+  const totalDonationPercentage = 100 - userDonationPercentage
+
   const data = [
-    { name: 'Total Donation', value: totalDonations },
-    { name: 'Your Donation', value: totalGivenDonations },
+    { name: 'Total Donation', value: totalDonationPercentage },
+    { name: 'Your Donation', value: userDonationPercentage },
   ]
 
   const COLORS = ['#FF444A', '#00C49F']
@@ -38,7 +41,7 @@ const Statistics = () => {
         textAnchor={x > cx ? 'start' : 'end'}
         dominantBaseline='central'
       >
-        {`${(percent * 100).toFixed(0)}%`}
+        {`${(percent * 100).toFixed(1)}%`}
       </text>
     )
   }
