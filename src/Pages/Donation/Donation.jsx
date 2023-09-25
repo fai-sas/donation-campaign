@@ -26,19 +26,21 @@ const Donation = () => {
 
   return (
     <>
-      <article className='container grid grid-cols-2 gap-8 py-8 py-12 mx-auto'>
+      <article className='container grid grid-cols-2 gap-8 py-12 mx-auto'>
         {displayDonation.slice(0, cardLength).map((data) => {
           return <Donations key={data.id} data={data} />
         })}
       </article>
-      <div className={cardLength === displayDonation.length ? 'hidden' : ''}>
-        <button
-          onClick={() => setCardLength(displayDonation.length)}
-          className='btn bg-[#009444] hover:bg-[#79C23F] text-white mx-auto block'
-        >
-          See All
-        </button>
-      </div>
+      {cardLength < displayDonation.length && (
+        <div className='text-center'>
+          <button
+            onClick={() => setCardLength(displayDonation.length)}
+            className='btn bg-[#009444] hover:bg-[#79C23F] text-white mx-auto block'
+          >
+            See All
+          </button>
+        </div>
+      )}
     </>
   )
 }

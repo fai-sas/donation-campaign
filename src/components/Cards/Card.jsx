@@ -16,7 +16,10 @@ const Card = ({ card }) => {
           <img src={picture} alt={title} />
 
           <div className='card-body'>
-            <p className='text-sm ' style={{ backgroundColor: card_bg }}>
+            <p
+              className='inline-flex text-sm'
+              style={{ backgroundColor: card_bg }}
+            >
               {category}
             </p>
             <p className='text-xl font-semibold'>{title}</p>
