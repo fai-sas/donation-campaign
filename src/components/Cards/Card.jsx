@@ -17,7 +17,7 @@ const Card = ({ card }) => {
 
           <div className='card-body'>
             <p
-              className='inline-flex text-sm'
+              className='inline-flex px-2 py-1 text-sm font-medium rounded-md w-max'
               style={{ backgroundColor: card_bg }}
             >
               {category}

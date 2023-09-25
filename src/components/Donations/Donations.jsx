@@ -9,8 +9,11 @@ const Donations = ({ data }) => {
       style={{ backgroundColor: category_bg, color: text_color }}
     >
       <img src={picture} className='max-w-sm rounded-lg shadow-2xl' />
-      <div className='space-y-1'>
-        <h1 className='font-bold' style={{ backgroundColor: card_bg }}>
+      <div className='space-y-2'>
+        <h1
+          style={{ backgroundColor: card_bg }}
+          className='px-2 py-1 font-medium font-bold rounded-md w-max '
+        >
           {category}
         </h1>
         <p className=' text-2xl font-semibold text-[#0B0B0B]'>{title}</p>
