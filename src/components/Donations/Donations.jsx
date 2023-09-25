@@ -5,14 +5,17 @@ const Donations = ({ data }) => {
 
   return (
     <div
-      className='flex items-center gap-8 rounded-lg '
+      className='items-center gap-8 rounded-lg lg:flex '
       style={{ backgroundColor: category_bg, color: text_color }}
     >
-      <img src={picture} className='max-w-sm rounded-lg shadow-2xl' />
-      <div className='space-y-2'>
+      <img
+        src={picture}
+        className='object-cover lg:h[12.5rem] lg:w-[18rem] rounded-t-lg lg:rounded-l-lg shadow-2xl '
+      />
+      <div className='p-2 space-y-2 lg:p-0'>
         <h1
           style={{ backgroundColor: card_bg }}
-          className='px-2 py-1 font-medium font-bold rounded-md w-max '
+          className='px-2 py-1 font-medium rounded-md w-max '
         >
           {category}
         </h1>

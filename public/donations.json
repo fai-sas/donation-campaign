@@ -45,7 +45,7 @@
   },
   {
     "id": "5",
-    "picture": "https://i.ibb.co/9cXy8xj/Food.png",
+    "picture": "https://images.pexels.com/photos/8617514/pexels-photo-8617514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "School Meals for Growth",
     "category": "Food",
     "category_bg": "#f8714726",
@@ -56,7 +56,7 @@
   },
   {
     "id": "6",
-    "picture": "https://i.ibb.co/DfW3XVH/Clothing.png",
+    "picture": "https://images.pexels.com/photos/5710151/pexels-photo-5710151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Fashion for Positive Change",
     "category": "Clothing",
     "category_bg": "#79c23f26",
@@ -67,7 +67,7 @@
   },
   {
     "id": "7",
-    "picture": "https://i.ibb.co/FsBgCyY/Education.png",
+    "picture": "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "STEM Education Advancement",
     "category": "Education",
     "category_bg": "#ff444a26",
@@ -78,7 +78,7 @@
   },
   {
     "id": "8",
-    "picture": "https://i.ibb.co/McSkzvT/Health.png",
+    "picture": "https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Immunizations for Children",
     "category": "Health",
     "category_bg": "#0052ff26",
@@ -89,7 +89,7 @@
   },
   {
     "id": "9",
-    "picture": "https://i.ibb.co/McSkzvT/Health.png",
+    "picture": "https://images.pexels.com/photos/6624322/pexels-photo-6624322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Maternal Health Support",
     "category": "Health",
     "category_bg": "#0052ff26",
@@ -100,7 +100,7 @@
   },
   {
     "id": "10",
-    "picture": "https://i.ibb.co/FsBgCyY/Education.png",
+    "picture": "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Online Learning Opportunities",
     "category": "Education",
     "category_bg": "#ff444a26",
@@ -111,7 +111,7 @@
   },
   {
     "id": "11",
-    "picture": "https://i.ibb.co/DfW3XVH/Clothing.png",
+    "picture": "https://images.pexels.com/photos/8386662/pexels-photo-8386662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1g",
     "title": "Ethical Fashion Choices",
     "category": "Clothing",
     "category_bg": "#79c23f26",
@@ -122,7 +122,7 @@
   },
   {
     "id": "12",
-    "picture": "https://i.ibb.co/9cXy8xj/Food.png",
+    "picture": "https://images.pexels.com/photos/6646914/pexels-photo-6646914.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Community Food Support",
     "category": "Food",
     "category_bg": "#f8714726",

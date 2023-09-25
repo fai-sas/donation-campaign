@@ -13,7 +13,11 @@ const Card = ({ card }) => {
           className='shadow-xl card card-compact'
           style={{ backgroundColor: category_bg, color: text_color }}
         >
-          <img src={picture} alt={title} />
+          <img
+            className='w-full object-cover h-[12.125rem]  rounded-t-lg'
+            src={picture}
+            alt={title}
+          />
 
           <div className='card-body'>
             <p

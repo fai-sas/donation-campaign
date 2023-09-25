@@ -1,4 +1,17 @@
-const Banner = () => {
+/* eslint-disable react/prop-types */
+import { useState } from 'react'
+
+const Banner = ({ handleSearch }) => {
+  const [search, setSearch] = useState('')
+
+  const handleClick = () => {
+    handleSearch(search)
+  }
+
+  const handleChange = (e) => {
+    setSearch(e.target.value)
+  }
+
   return (
     <div
       className='min-h-[80vh] hero mt-[-12rem] '
@@ -18,8 +31,13 @@ const Banner = () => {
               type='text'
               placeholder='Search here....'
               className='input input-bordered w-96'
+              value={search}
+              onChange={handleChange}
             />
-            <span className='bg-[#FF444A] font-semibold text-white '>
+            <span
+              onClick={handleClick}
+              className='bg-[#FF444A] font-semibold text-white '
+            >
               <button>Search</button>
             </span>
           </label>

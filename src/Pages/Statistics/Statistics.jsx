@@ -1,5 +1,5 @@
 import { useLoaderData } from 'react-router-dom'
-import { PieChart, Pie, Cell, Legend, ResponsiveContainer } from 'recharts'
+import { PieChart, Pie, Cell, Legend } from 'recharts'
 
 const Statistics = () => {
   const donations = useLoaderData()

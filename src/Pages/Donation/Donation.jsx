@@ -26,7 +26,7 @@ const Donation = () => {
 
   return (
     <>
-      <article className='container grid grid-cols-2 gap-8 py-12 mx-auto'>
+      <article className='container grid gap-8 px-8 py-12 mx-auto md:px-0 md:grid-cols-2'>
         {displayDonation.slice(0, cardLength).map((data) => {
           return <Donations key={data.id} data={data} />
         })}
