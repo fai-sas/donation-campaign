@@ -40,7 +40,7 @@ const Statistics = () => {
 
   return (
     <ResponsiveContainer width='100%' height='100%'>
-      <div>
+      <div className='container py-12 mx-auto'>
         <h1 className='py-8 text-2xl font-bold'>Statistics</h1>
         <PieChart width={400} height={400}>
           <Pie
