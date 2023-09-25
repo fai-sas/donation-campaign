@@ -14,10 +14,14 @@ const SingleDonation = () => {
   }
 
   return (
-    <div className='container py-12 mx-auto'>
+    <div className='container p-8 mx-auto lg:py-12'>
       <div className='relative'>
-        <img src={donation.picture} className='object-cover w-full ' alt='' />
-        <div className='absolute bottom-0 left-0 w-full p-8  bg-[#0b0b0b7f] '>
+        <img
+          src={donation.picture}
+          className='object-cover w-full rounded-lg '
+          alt=''
+        />
+        <div className='absolute bottom-0 left-0 w-full p-4 lg:p-8  bg-[#0b0b0b7f] '>
           <button
             onClick={handleDonation}
             className='text-xl font-semibold text-white border-none opacity-100 btn'

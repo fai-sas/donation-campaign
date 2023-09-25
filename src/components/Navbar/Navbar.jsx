@@ -2,8 +2,11 @@ import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='container relative z-10 pt-12 pb-8 mx-auto navbar'>
+    <div className='container relative z-10 p-8 mx-auto lg:pt-12 navbar'>
       <div className='navbar-start'>
+        <Link to='/' className='text-xl normal-case '>
+          <img src='https://i.ibb.co/rmYtPJp/Logo.png' alt='logo' />
+        </Link>
         <div className='dropdown'>
           <label tabIndex={0} className='btn btn-ghost lg:hidden'>
             <svg
@@ -23,22 +26,19 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52'
+            className='menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box '
           >
-            <li>
+            <li className='px-4 text-lg font-bold'>
               <NavLink to='/'>Home</NavLink>
             </li>
-            <li>
+            <li className='px-4 text-lg font-bold'>
               <NavLink to='/donation'>Donation</NavLink>
             </li>
-            <li>
+            <li className='px-4 text-lg font-bold'>
               <NavLink to='/statistics'>Statistics</NavLink>
             </li>
           </ul>
         </div>
-        <Link to='/' className='text-xl normal-case '>
-          <img src='https://i.ibb.co/rmYtPJp/Logo.png' alt='logo' />
-        </Link>
       </div>
       <div className='hidden navbar-end lg:flex'>
         <ul className='px-1 menu-horizontal'>
