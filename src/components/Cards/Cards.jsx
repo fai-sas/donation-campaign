@@ -6,7 +6,7 @@ const Cards = ({ searchCategory }) => {
   const [cards, setCards] = useState([])
 
   useEffect(() => {
-    fetch('donations.json')
+    fetch('/donations.json')
       .then((response) => response.json())
       .then((data) => setCards(data))
   }, [])

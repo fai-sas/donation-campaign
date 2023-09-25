@@ -1,18 +1,23 @@
 import { useLoaderData } from 'react-router-dom'
 import { PieChart, Pie, Cell, Legend } from 'recharts'
+import { getDonationData } from '../../utils/localStorage'
 
 const Statistics = () => {
   const donations = useLoaderData()
-  console.log(donations)
+  const storedDonationIds = getDonationData()
+
+  const totalDonations = donations.length
+  const totalGivenDonations = storedDonationIds.length
 
   const data = [
-    { name: 'Total Donation', value: donations.length },
-    { name: 'Your Donation', value: 4 },
+    { name: 'Total Donation', value: totalDonations },
+    { name: 'Your Donation', value: totalGivenDonations },
   ]
 
   const COLORS = ['#FF444A', '#00C49F']
 
   const RADIAN = Math.PI / 180
+
   const renderCustomizedLabel = ({
     cx,
     cy,
@@ -33,14 +38,14 @@ const Statistics = () => {
         textAnchor={x > cx ? 'start' : 'end'}
         dominantBaseline='central'
       >
-        {`${(percent * 100).toFixed(1)}%`}
+        {`${(percent * 100).toFixed(0)}%`}
       </text>
     )
   }
 
   return (
     <div className=''>
-      <PieChart width={730} height={400} className='container py-12 mx-auto'>
+      <PieChart width={400} height={400} className='container py-12 mx-auto'>
         <Pie
           data={data}
           cx={200}
