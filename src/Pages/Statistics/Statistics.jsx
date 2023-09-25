@@ -39,31 +39,25 @@ const Statistics = () => {
   }
 
   return (
-    <ResponsiveContainer width='100%' height='100%'>
-      <div className='container py-12 mx-auto'>
-        <h1 className='py-8 text-2xl font-bold'>Statistics</h1>
-        <PieChart width={400} height={400}>
-          <Pie
-            data={data}
-            cx={200}
-            cy={200}
-            labelLine={false}
-            label={renderCustomizedLabel}
-            outerRadius={80}
-            fill='#8884d8'
-            dataKey='value'
-          >
-            {data.map((entry, index) => (
-              <Cell
-                key={`cell-${index}`}
-                fill={COLORS[index % COLORS.length]}
-              />
-            ))}
-          </Pie>
-          <Legend />
-        </PieChart>
-      </div>
-    </ResponsiveContainer>
+    <div className=''>
+      <PieChart width={730} height={400} className='container py-12 mx-auto'>
+        <Pie
+          data={data}
+          cx={200}
+          cy={200}
+          labelLine={false}
+          label={renderCustomizedLabel}
+          outerRadius={80}
+          fill='#8884d8'
+          dataKey='value'
+        >
+          {data.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+          ))}
+        </Pie>
+        <Legend />
+      </PieChart>
+    </div>
   )
 }
 export default Statistics
