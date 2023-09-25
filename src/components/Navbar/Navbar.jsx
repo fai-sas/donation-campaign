@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='navbar bg-base-100'>
+    <div className='container py-8 mx-auto navbar bg-base-100'>
       <div className='navbar-start'>
         <div className='dropdown'>
           <label tabIndex={0} className='btn btn-ghost lg:hidden'>
@@ -27,15 +27,12 @@ const Navbar = () => {
           >
             <li>
               <NavLink to='/'>Home</NavLink>
-              {/* <a>Item 1</a> */}
             </li>
             <li>
               <NavLink to='/donation'>Donation</NavLink>
-              {/* <a>Item 3</a> */}
             </li>
             <li>
               <NavLink to='/statistics'>Statistics</NavLink>
-              {/* <a>Item 3</a> */}
             </li>
           </ul>
         </div>
@@ -44,14 +41,14 @@ const Navbar = () => {
         </Link>
       </div>
       <div className='hidden navbar-end lg:flex'>
-        <ul className='px-1 menu menu-horizontal'>
-          <li className='px-4'>
+        <ul className='px-1 menu-horizontal'>
+          <li className='px-4 text-lg font-bold'>
             <NavLink to='/'>Home</NavLink>
           </li>
-          <li className='px-4'>
+          <li className='px-4 text-lg font-bold'>
             <NavLink to='/donation'>Donation</NavLink>
           </li>
-          <li className='px-4'>
+          <li className='px-4 text-lg font-bold'>
             <NavLink to='/statistics'>Statistics</NavLink>
           </li>
         </ul>

@@ -11,7 +11,7 @@ const Cards = () => {
   }, [])
 
   return (
-    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
+    <div className='container grid gap-8 py-8 py-12 mx-auto  md:grid-cols-2 lg:grid-cols-4'>
       {cards.map((card) => {
         return <Card key={card.id} card={card}></Card>
       })}

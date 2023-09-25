@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar/Navbar'
 
 const MainLayout = () => {
   return (
-    <div className='container py-8 mx-auto'>
+    <div className=''>
       <Navbar />
       <Outlet />
     </div>

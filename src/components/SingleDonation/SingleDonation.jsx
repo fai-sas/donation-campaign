@@ -3,7 +3,9 @@ import { saveDonationData } from '../../utils/localStorage'
 
 const SingleDonation = () => {
   const data = useLoaderData()
-  const { id } = useParams()
+  console.log(data)
+  // console.log(data[0].category_bg)
+  const { id, category_bg, text_color } = useParams()
   const donation = data.find((donation) => donation.id === id)
 
   const handleDonation = () => {
@@ -12,11 +14,15 @@ const SingleDonation = () => {
   }
 
   return (
-    <div className='py-12'>
+    <div className='container py-12 mx-auto'>
       <div>
         <img src={donation.picture} className='object-cover w-full ' alt='' />
-        <button onClick={handleDonation} className='btn btn-primary'>
-          {donation.price}
+        <button
+          onClick={handleDonation}
+          className='btn'
+          // style={{ backgroundColor: category_bg, color: text_color }}
+        >
+          Donate ${donation.price}
         </button>
         <article className='py-8'>
           <h1 className='text-4xl font-bold'>{donation.title}</h1>

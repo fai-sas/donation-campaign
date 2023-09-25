@@ -3,7 +3,7 @@ import Cards from '../../components/Cards/Cards'
 
 const HomePage = () => {
   return (
-    <div className='py-8'>
+    <div className='pb-8'>
       <Banner />
       <Cards />
     </div>
