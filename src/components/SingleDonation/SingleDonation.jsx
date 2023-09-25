@@ -1,5 +1,7 @@
 import { useLoaderData, useParams } from 'react-router-dom'
 import { saveDonationData } from '../../utils/localStorage'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const SingleDonation = () => {
   const data = useLoaderData()
@@ -8,7 +10,7 @@ const SingleDonation = () => {
 
   const handleDonation = () => {
     saveDonationData(id)
-    alert('You have applied successfully')
+    toast.success(`You Have Successfully Donated $${donation.price}`)
   }
 
   return (
@@ -34,6 +36,18 @@ const SingleDonation = () => {
           {donation.description}
         </p>
       </article>
+      <ToastContainer
+        position='top-center'
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme='light'
+      />
     </div>
   )
 }
