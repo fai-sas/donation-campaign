@@ -40,6 +40,7 @@ const Statistics = () => {
         fill='white'
         textAnchor={x > cx ? 'start' : 'end'}
         dominantBaseline='central'
+        className='text-2xl font-bold'
       >
         {`${(percent * 100).toFixed(1)}%`}
       </text>
@@ -55,7 +56,7 @@ const Statistics = () => {
           cy={200}
           labelLine={false}
           label={renderCustomizedLabel}
-          outerRadius={80}
+          outerRadius={180}
           fill='#8884d8'
           dataKey='value'
         >
