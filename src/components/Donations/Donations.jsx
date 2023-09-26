@@ -20,9 +20,9 @@ const Donations = ({ data }) => {
     >
       <img
         src={picture}
-        className='object-cover md:h[12rem] md:w-[18rem] rounded-t-lg md:rounded-l-lg shadow-2xl '
+        className='object-cover w-full md:h[12rem] lg:w-[18rem] rounded-t-lg md:rounded-l-lg shadow-2xl '
       />
-      <div className='p-2 space-y-2 lg:p-0'>
+      <div className='p-8 space-y-2 lg:p-4'>
         <h1
           style={{ backgroundColor: card_bg }}
           className='px-2 py-1 font-medium rounded-md w-max '

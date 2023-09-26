@@ -20,8 +20,8 @@ const Banner = ({ handleSearch }) => {
       }}
     >
       <div className='bg-[#fffffff2] hero-overlay'></div>
-      <div className='p-4 pt-12 text-center lg:pt-0 lg:p-0'>
-        <h1 className='py-8 mb-5 text-3xl font-bold text-black lg:text-5xl'>
+      <div className='p-4 pt-6 text-center lg:mt-24 lg:pt-0 lg:p-0'>
+        <h1 className='pt-4 pb-8 mb-5 text-3xl font-bold text-black  lg:text-5xl'>
           I Grow By Helping People In Need
         </h1>
 
