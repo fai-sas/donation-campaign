@@ -1,0 +1,4 @@
+ options -multiviews
+    rewriteengine on
+    rewritecond %{request_filename} !-f
+    rewriterule ^ index.html [qsa,l]

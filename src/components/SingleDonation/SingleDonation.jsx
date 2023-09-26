@@ -6,9 +6,10 @@ import { useEffect, useState } from 'react'
 import SingleDonationDetails from '../SingleDonationDetails/SingleDonationDetails'
 
 const SingleDonation = () => {
-  const [singleDonation, setSingleDonation] = useState({})
+  const [singleDonation, setSingleDonation] = useState([])
 
   const data = useLoaderData()
+
   const { id } = useParams()
 
   useEffect(() => {
@@ -18,7 +19,7 @@ const SingleDonation = () => {
 
   const handleDonation = () => {
     saveDonationData(id)
-    toast.success(`You Have Successfully Donated`)
+    toast.success(`You Have Successfully Donated $${singleDonation.price}`)
   }
 
   return (

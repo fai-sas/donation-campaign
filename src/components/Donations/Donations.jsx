@@ -20,7 +20,7 @@ const Donations = ({ data }) => {
     >
       <img
         src={picture}
-        className='object-cover lg:h[12.5rem] lg:w-[18rem] rounded-t-lg lg:rounded-l-lg shadow-2xl '
+        className='object-cover md:h[12rem] md:w-[18rem] rounded-t-lg md:rounded-l-lg shadow-2xl '
       />
       <div className='p-2 space-y-2 lg:p-0'>
         <h1
